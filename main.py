@@ -9,10 +9,9 @@ from fastapi.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 
-
+#n
 # from pathlib import Path
 public_path = pkg_resources.resource_filename(__name__, 'public')
-
 os.chdir("..")
 sys.path.append(os.getcwd())
 
